@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextViewFormNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/form_number"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFormNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/form_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/legal_information"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/deceased_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseFirstNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseLastNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_other_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseOtherName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_other_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseDODText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_dod"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseDOD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:hint="@string/decease_dod"
+                android:inputType="date"
+                android:onClick="showDatePickerDialog"
+                android:focusableInTouchMode="false"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseBODText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_bod"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseBOD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:hint="@string/decease_bod"
+                android:inputType="date"
+                android:focusableInTouchMode="true"
+                android:onClick="showDatePickerDialog"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/natIDLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/natID"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/natID"
+                android:prompt="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deceaseNatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_nat_id"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseNatId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_nat_id"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_tel_no"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseTelNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_tel_no"
+                android:inputType="number"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseSexText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/sex"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+            <Spinner
+                android:id="@+id/deceaseSex"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/gender"
+                android:prompt="@string/sex"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deceaseTimeAliveLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/deceaseTimeAliveText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_time_alive"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseTimeAlive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_time_alive"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/deceased_mother_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseMotherFirstNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/mother_first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/mother_first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/mother_second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/mother_second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseMotherLastNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/mother_last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/mother_last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/motherNatID"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/natID"
+                android:prompt="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deceaseMotherNatIdLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_nat_id"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherNatId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_nat_id"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/mother_mob_no"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherMobileNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/mother_mob_no"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/mother_email"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseMotherEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/mother_email"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/deceased_father_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseFatherFirstNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/father_first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/father_first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/father_second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/father_second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseFatherLastNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/father_last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/father_last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/fatherNatID"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/natID"
+                android:prompt="@string/natID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deceaseFatherNatIdLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_nat_id"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherNatId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_nat_id"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/father_mob_no"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherMobileNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/father_mob_no"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/father_email"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseFatherEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/father_email"
+                android:inputType="textEmailAddress"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/death_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesDeathLocationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/death_location"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesDeathLocation"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/death_location"
+                android:prompt="@string/death_location"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesTypeOfHFLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesTypeOfHFText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/type_hf"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesTypeOfHF"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/type_hf"
+                android:prompt="@string/type_hf"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hfGereshoNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/hfGereshoNumberText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/hf_geresho"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/hfGereshoNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/hf_geresho"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceasedLocationVillageText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_location_village"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceasedLocationVillage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_location_village"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceasedLocationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_location"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceasedLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_location"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceasedBeforeLocationVillageText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_before_location_village"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceasedBeforeLocationVillage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_before_location_village"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseBeforeLocationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_before_location"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deceaseBeforeLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_before_location"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/statistical_information"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/deceased_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+        <LinearLayout
+            android:id="@+id/maritalStatusSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesMaritalStatusText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/marital_status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesMaritalStatus"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/marital_status"
+                android:prompt="@string/marital_status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesOccupationSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesOccupationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_occupation"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesOccupation"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/decease_occupation"
+                android:prompt="@string/decease_occupation"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesEducationSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesEducationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_education"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesEducation"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/decease_education"
+                android:prompt="@string/decease_education"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deceaseBONText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_bon"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deceaseBON"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:prompt="@string/country_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesBirthRegistrationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesBirthRegistrationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_birth_registration"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesBirthRegistration"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/decease_birth_registration"
+                android:prompt="@string/decease_birth_registration"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesBirthRegistrationNoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesBirthRegistrationNoText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_birth_registration_no"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deacesBirthRegistrationNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_birth_registration_no"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/motherLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+                android:gravity="left"
+                android:text="@string/deceased_mother_location_info"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/instBlack" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/deacesMotherVillageText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/mother_village"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/deacesMotherVillage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/mother_village"
+                    android:inputType="text|textCapWords"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/deacesMotherLocationText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/decease_mother_location"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/deacesMotherLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/decease_mother_location"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_mini_header_margin_top"
+            android:gravity="left"
+            android:text="@string/death_information"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/instBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesRODVerifiedText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_reason_of_death_verified"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesRODVerified"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/boolean_ksw"
+                android:prompt="@string/decease_reason_of_death_verified"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deacesReassonOfDeathLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesReassonOfDeathText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_reason_of_death"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/deacesReassonOfDeath"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/decease_reason_of_death"
+                android:inputType="text|textCapWords"
+                android:maxLength="100"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deacesDeathMannerTextSection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesDeathMannerText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_death_manner"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesDeathManner"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/decease_death_manner"
+                android:prompt="@string/decease_death_manner"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesAutospySection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesAutospyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_autospy"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesAutospy"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/boolean_ksw"
+                android:prompt="@string/decease_autospy"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesPregnancyStatusLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesPregnancyStatusText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_pregnanncy_status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesPregnancyStatus"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/boolean_ext_ksw"
+                android:prompt="@string/decease_pregnanncy_status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/deacesPregnancyAgeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesPregnancyAgeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/pregnancy_age"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesPregnancyAge"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/pregnancy_age"
+                android:prompt="@string/decease_pregnanncy_status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/informant"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deacesRelationshipText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/decease_relationship"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/deacesRelationship"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/decease_relationship"
+                android:prompt="@string/decease_relationship"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/informatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/informatFirstNameText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/informat_first_name"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+                <EditText
+                    android:id="@+id/informatFirstName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/informat_first_name"
+                    android:inputType="text|textCapWords"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/informat_second_name"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+                <EditText
+                    android:id="@+id/informatSecondName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/informat_second_name"
+                    android:inputType="text|textCapWords"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/informatLastNameText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/informat_last_name"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+                <EditText
+                    android:id="@+id/informatLastName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/informat_last_name"
+                    android:inputType="text|textCapWords"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/natID"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Spinner
+                    android:id="@+id/informatNatID"
+                    style="android:editTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:entries="@array/natID"
+                    android:prompt="@string/natID"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/informatNatIdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/decease_nat_id"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/informatNatId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/decease_nat_id"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/father_mob_no"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/informatMobileNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/father_mob_no"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/father_email"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/informatEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/father_email"
+                    android:inputType="textEmailAddress"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/informatLocationVillageText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/informat_location_village"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/informatLocationVillage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/informat_location_village"
+                    android:inputType="text|textCapWords"
+                    android:maxLength="20"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/informat_location"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+                <EditText
+                    android:id="@+id/informatLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:gravity="left"
+                    android:hint="@string/informat_location"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:hint="@string/date_txt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/informatDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:hint="@string/date_txt"
+                android:inputType="date"
+                android:onClick="showDatePickerDialog"
+                android:focusableInTouchMode="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/registration_center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/reg_assistant_first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+            <EditText
+                android:id="@+id/regAssistantFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/reg_assistant_first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/reg_assistant_second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+            <EditText
+                android:id="@+id/regAssistantSecName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/reg_assistant_second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/reg_assistant_last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+            <EditText
+                android:id="@+id/regAssistantLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/reg_assistant_last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/registerDateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/register_date"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/registerDate"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:background="?android:attr/editTextBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/register_date"
+                android:inputType="date"
+                android:focusableInTouchMode="false"
+                android:onClick="showDatePickerDialog"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/facility_name"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/facilityName"
+                    style="android:editTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:background="?android:attr/editTextBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:hint="@string/facility_name"
+                    android:inputType="date"
+                    android:onClick="showDatePickerDialog"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="@string/hf_geresho"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/facilityGereshoNo"
+                    style="android:editTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="5"
+                    android:background="?android:attr/editTextBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:hint="@string/hf_geresho"
+                    android:inputType="date"
+                    android:onClick="showDatePickerDialog"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonTakePicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTakePictureButtonClick"
+            android:padding="10dp"
+            android:text="@string/take_picture"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/formPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:minHeight="100dp"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onCancelButtonClick"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <!--
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onSaveButtonClick"
+                android:text="@string/save" />
+                 -->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onUploadButtonClick"
+                android:text="@string/upload" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

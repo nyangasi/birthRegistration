@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\about_helpview.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\exploded-aar\\birthregistration\\sdmm_sdk\\unspecified\\res\\layout\\about_helpview.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\birth_record_list_element.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\birth_record_list_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_form_book.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_create_form_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_record.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_birth_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\birth_record_list_element.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\birth_record_list_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_death_register.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_death_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_records_list.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_birth_records_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_records_list.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_birth_records_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\app_disabled.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\app_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_form_books.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_list_form_books.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_form_book.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_create_form_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\app_disabled.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\app_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dash_board.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_dash_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chart.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dash_board.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_dash_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chart.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\fragment_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\about_helpview.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\exploded-aar\\BirthRegistration\\sDMM_SDK\\unspecified\\res\\layout\\about_helpview.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chart.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chart.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\fragment_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_records_list.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_birth_records_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_form_book.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_create_form_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_password.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_record.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_birth_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\act_init_listener_setup.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\exploded-aar\\birthregistration\\sdmm_sdk\\unspecified\\res\\layout\\act_init_listener_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_form_books.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_list_form_books.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chart.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\fragment_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dash_board.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_dash_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_user.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\about_helpview.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\exploded-aar\\BirthRegistration\\sDMM_SDK\\unspecified\\res\\layout\\about_helpview.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birth_record.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_birth_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\birth_record_list_element.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\birth_record_list_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_death_register.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_death_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_form_books.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_list_form_books.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chart.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_death_register.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_death_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\cliff.maregeli\\git\\BirthRegistration\\birthregistration\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\act_init_listener_setup.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\C:\\Users\\ucc-ian\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\exploded-aar\\BirthRegistration\\sDMM_SDK\\unspecified\\res\\layout\\act_init_listener_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\act_init_listener_setup.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\exploded-aar\\BirthRegistration\\sDMM_SDK\\unspecified\\res\\layout\\act_init_listener_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\build\\intermediates\\res\\merged\\debug\\layout\\app_disabled.xml",
+        "source": "C:\\Users\\ianmanyama\\Dropbox\\MyAndroidBullshit\\iosched-master\\BirthRegistration\\birthRegistration\\src\\main\\res\\layout\\app_disabled.xml"
+    }
+]

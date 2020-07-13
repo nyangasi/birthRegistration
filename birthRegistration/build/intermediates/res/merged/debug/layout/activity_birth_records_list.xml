@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.BirthRecordsListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxSelectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textViewSelectionMessage"
+            style="@style/TransparentTextFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/select_all" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewStoredRecords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:listSelector="?android:attr/listChoiceIndicatorMultiple">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:gravity="bottom|right"
+        android:orientation="horizontal">
+
+        <!--
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onDeleteSelectedItemsButtonClick"
+            android:text="@string/delete_selected" />
+
+         -->
+    </LinearLayout>
+
+
+</LinearLayout>

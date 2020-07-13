@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFormNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/form_number"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFormNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/form_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/baby_data"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewBabyFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextBabyFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView                
+                android:id="@+id/TextViewBabySecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextBabySecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewBabySex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/sex"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerBabySex"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/sex_array"
+                android:prompt="@string/sex"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewBirthDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/birth_date"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextBirthDate"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:background="?android:attr/editTextBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/pick_date"
+                android:inputType="date"
+                android:onClick="showDatePickerDialog"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/place_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerPlaceOfBirth"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/place_of_birth_array"
+                android:prompt="@string/place_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewBabyPlaceOfBirthDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/birth_place_district_code"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextBabyPlaceOfBirthDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:enabled="true"
+                android:gravity="left"
+                android:hint="@string/birth_place_district_code"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/state_at_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerStateAtBirth"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/state_at_birth_array"
+                android:prompt="@string/state_at_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/type_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerTypeOfBirth"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/type_of_birth_array"
+                android:prompt="@string/type_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewBabyResidencePostCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/residence_post_code"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextBabyResidencePostCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/residence_post_code"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/mother_data"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/country_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerMotherCountryOfBirth"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:prompt="@string/country_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/residence_district_code"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/residence_district_code"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherNumberOfChildren"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/number_of_children"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherNumberOfChildren"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/number_of_children"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewMotherAge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/age"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextMotherAge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        
+        
+             
+        <!-- FATHER  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/father_data"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFatherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFatherFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/first_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFatherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/second_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFatherSecondName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/second_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFatherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFatherLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/last_name"
+                android:inputType="text|textCapWords"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/country_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerFatherCountryOfBirth"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:prompt="@string/country_of_birth"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFatherDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/residence_district_code"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFatherDistrictCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/residence_district_code"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- SOLEMN DISCLOSURE  -->
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/solemn_disclosure"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/filled_by"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerFilledBy"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/filled_by_array"
+                android:prompt="@string/filled_by"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFilledByFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/first_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFilledByFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:enabled="false"
+                android:gravity="left"
+                android:hint="@string/first_name"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewFilledByLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/last_name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextFilledByLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:enabled="false"
+                android:gravity="left"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        
+        
+        <!-- NOTICE OF REGISTRAR  -->
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_header_margin_top"
+            android:gravity="left"
+            android:text="@string/notice_of_registrar"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewRegistrationCenterCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/registration_center_code"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationCenterCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:hint="@string/registration_center_code"
+                android:inputType="text"
+                android:maxLength="8"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/certificate_issued"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/spinnerCertificateIssued"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:entries="@array/yes_no_array"
+                android:prompt="@string/certificate_issued"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextViewDateOfRegistration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="@string/date_of_registration"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editTextDateOfRegistration"
+                style="android:editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="5"
+                android:background="?android:attr/editTextBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/pick_date"
+                android:inputType="date"
+                android:onClick="showDatePickerDialog"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        <Button
+            android:text="@string/take_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonTakePicture"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:onClick="onTakePictureButtonClick"/>
+        <ImageView
+            android:id="@+id/formPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:adjustViewBounds="true"
+            android:minHeight="100dp" />
+        <LinearLayout 
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onCancelButtonClick"
+            android:text="@string/cancel" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        <!-- 
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onSaveButtonClick"
+            android:text="@string/save" />
+             -->
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onUploadButtonClick"
+            android:text="@string/upload" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

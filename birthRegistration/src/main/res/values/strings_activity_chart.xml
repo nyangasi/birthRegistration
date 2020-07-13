@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="chart_by_time">Time/Muda</string>
+<string name="chart_by_age">Age/Umri/</string>
+<string name="chart_by_sex">Sex/Jinsia</string>
+<string name="chart_by_place_of_birth">Birth Place/Mahali alipozaliwa</string>
+<array name="month_array">
+    <item>Jan</item>
+    <item>Feb</item>
+    <item>Mar</item>
+    <item>Apr</item>
+    <item>May</item>
+    <item>Jun</item>
+    <item>Jul</item>
+    <item>Aug</item>
+    <item>Sep</item>
+    <item>Oct</item>
+    <item>Nov</item>
+    <item>Dec</item>
+</array>
+<string name="title_activity_chart">Charts and Statistics/Chati na Takwimu</string>
+<string name="charts">Charts and Statistics/Chati na Takwimu</string>
+<string name="action_settings">Settings/Mpangilio</string>
+<string name="take_picture">Take photo/Piga picha</string>
+
+<string name="title_activity_settings">Settings/Mpangilio</string>
+
+<!-- Strings related to Settings -->
+
+<!-- General settings -->
+<string name="pref_header_general">General/Ujumla</string>
+
+<!-- Form Number settings -->
+<string name="pref_form_number_settings_title">Form Number Settings/Mpangilio wa namba za fomu</string>
+<string name="pref_title_starting_form_number">Starting Form Number/Namba inayoanza katika fomu</string>
+<string name="pref_summary_starting_form_number">The start number of the valid form number range/Weka namba inayoanza katika fomu.</string>
+<string name="pref_title_ending_form_number">Ending Form Number/Namba ya mwisho katika fomu</string>
+<string name="pref_summary_ending_form_number">The end number of the valid form number range/Weka namba inayoishia katika fomu.</string>
+
+
+<!-- Registration Center settings -->
+<string name="pref_registration_center_settings_title">Registration Center Settings/Mpangilio wa vituo vya usajili</string>
+<string name="pref_title_registration_center_number">Registration Center Number/Geresho la kituo</string>
+<string name="pref_summary_registration_center_number">Enter Registration Center Number/Ingiza geresho la kituo</string>
+
+<!-- Data upload settings -->
+<string name="pref_data_upload_settings_title">Data Upload Settings/Mpangilio wa kutuma data</string>
+<string name="pref_sms_upload_settings_title">SMS Data Upload Settings/Mpangilio wa kutuma data kwa meseji</string>
+
+<string name="pref_enable_sms_upload">Use SMS to upload data to server/Tumia meseji kutuma data katika kanzidata.</string>
+<string name="pref_title_enable_sms_upload">Enable SMS data upload/Ruhusu kutuma data kwa meseji.</string>
+    <string name="pref_summary_sms_upload_number">The phone number to use for uploading data using SMS.
+        Enter the number without any spaces or other characters.  For international precede the number
+        with a 00 followed by any country and area codes. Short code numbers are allowed.</string>
+<string name="pref_title_sms_upload_number">SMS Upload Number</string>
+
+<string name="pref_enable_internet_upload">Use Internet to upload data to server/Tumia mtandao kutuma data kwenye kanzidata</string>
+<string name="pref_title_enable_internet_upload">Enable Internet data upload/Ruhusu mtandao kutuma data.</string>
+    <string name="pref_summary_upload_url">URL/Internet address for uploading data.  Enter the url in full.
+        The URL must start either with http or https.  No other protocols are allowed.</string>
+<string name="pref_title_upload_url">Upload URL.</string>
+
+<string name="pref_show_notifications">Show notifications on the delivery status of uploaded data/Onesha mrejesho kwa data iliyopokelewa.</string>
+<string name="pref_title_show_notifications">Show Notifications/Onesha mrejesho.</string>
+
+
+<string name="error_title_upload_settings_failure">Problems with your Upload Settings/matatizo kwenye mpangilio wa utumaji .</string>
+    <string name="error_upload_settings_failure">Problems with your upload settings are detected.
+        Check if you have enabled at least one upload method and have no errors in the upload addresses.</string>
+
+
+<string-array name="pref_example_list_titles">
+    <item>Always</item>
+    <item>When possible</item>
+    <item>Never</item>
+</string-array>
+<string-array name="pref_example_list_values">
+    <item>1</item>
+    <item>0</item>
+    <item>-1</item>
+</string-array>
+
+<string name="pref_header_data_sync">Data &amp; sync</string>
+
+<string name="pref_title_sync_frequency">Sync frequency</string>
+<string-array name="pref_sync_frequency_titles">
+    <item>15 minutes</item>
+    <item>30 minutes</item>
+    <item>1 hour</item>
+    <item>3 hours</item>
+    <item>6 hours</item>
+    <item>Never</item>
+</string-array>
+<string-array name="pref_sync_frequency_values">
+    <item>15</item>
+    <item>30</item>
+    <item>60</item>
+    <item>180</item>
+    <item>360</item>
+    <item>-1</item>
+</string-array>
+
+<string name="pref_title_system_sync_settings">System sync settings</string>
+
+
+<string name="pref_header_notifications">Notifications</string>
+
+<string name="pref_title_new_message_notifications">New message notifications</string>
+
+<string name="pref_title_ringtone">Ringtone</string>
+<string name="pref_ringtone_silent">Silent</string>
+
+<string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

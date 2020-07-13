@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tz.co.rita.birthregistration"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.sdmmllc.superdupersmsmanager.SEND_SMS" />
+    <uses-permission android:name="com.sdmmllc.superdupersmsmanager.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".BirthRegistrationApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_rita"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:name" >
+        <receiver
+            android:name="tz.co.rita.receivers.BirthRegistrationSmsReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeNoActionBar"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".BirthRecordActivity"
+            android:label="@string/birth_record_input_title"
+            android:parentActivityName=".DashBoardActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".DeathRegisterActivity"
+            android:label="@string/death_register_input_title"
+            android:parentActivityName=".DashBoardActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".BirthRecordsListActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+
+        <provider
+            android:name="tz.co.rita.data.BirthRegistrationProvider"
+            android:authorities="tz.co.rita.birthregistration.birthregistrationprovider"
+            android:exported="false"
+            android:syncable="true" />
+
+        <activity
+            android:name=".CreateNewUserActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password" />
+
+        <service
+            android:name="tz.co.rita.services.PhoneStateChangeListenerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".ChartActivity"
+            android:label="@string/title_activity_chart"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".CreateFormBook"
+            android:label="@string/title_activity_create_form_book"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tz.co.rita.birthregistration.DashBoardActivity" />
+        </activity>
+        <activity
+            android:name=".ListFormBooks"
+            android:label="@string/title_activity_list_form_books"
+            android:parentActivityName=".DashBoardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tz.co.rita.birthregistration.DashBoardActivity" />
+        </activity>
+    </application>
+
+</manifest>

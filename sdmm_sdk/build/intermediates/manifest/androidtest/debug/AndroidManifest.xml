@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdmmllc.superdupersmsmanager.sdk.test" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.sdmmllc.superdupersmsmanager.sdk.test"
+        android:targetPackage="com.sdmmllc.superdupersmsmanager.sdk.test" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application android:name="com.sdmmllc.superdupersmsmanager.sdk" >
+        <uses-library android:name="android.test.runner" />
+
+        <receiver
+            android:name="com.sdmmllc.superdupermm.SDSmsIntentReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="-999" >
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

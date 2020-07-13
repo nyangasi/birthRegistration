@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cliff.maregeli\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\22.1.1\1d051a6bfb1218b1db2d3a5af0480ac2c25c42a\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_3a5a038f9cf044700576d660e92f2560b770be05.jar" />
+    </item>
+    <item
+        jar="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_549c9a3ed131f167b6b51e3a5fc121ee8f8a2b5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_78fef40dc91fab6db6f1537e71d40e3d49d6d931.jar" />
+    </item>
+    <item
+        jar="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\exploded-aar\birthregistration\sdmm_sdk\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="374f84a9ddfe6b6082cf7fc8a9d66c75be01d695">
+        <dex dex="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\pre-dexed\debug\birthregistration-sdmm_sdk-unspecified_95899d3ef782e5041c50fd1b75840f2e3d5c8595.jar" />
+    </item>
+    <item
+        jar="C:\Users\cliff.maregeli\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.2.0\b8c0920fbe8225e30b8f378474528ca163c9c9e4\MPAndroidChart-v2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b8c0920fbe8225e30b8f378474528ca163c9c9e4">
+        <dex dex="C:\Users\cliff.maregeli\git\BirthRegistration\birthregistration\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.2.0_2b56ee5e166c1706e08cec31621072fa2b6c2f10.jar" />
+    </item>
+
+</items>

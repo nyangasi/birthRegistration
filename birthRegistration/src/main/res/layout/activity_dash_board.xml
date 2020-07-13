@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color_pink"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="${packageName}.DashBoardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/TextViewWelcomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/imageButtonNewRecord"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_new_baby"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onNewRecordButtonClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/new_record"
+            android:textSize="@dimen/widget_title_text_size" />
+
+
+        <Button
+            android:id="@+id/imageButtonDeathRegister"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_new_baby"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onButtonDeathRegisterClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/death_register"
+            android:textSize="@dimen/widget_title_text_size" />
+
+        <!--
+
+            <Button
+                android:id="@+id/imageButtonListRecords"
+                style="@style/TransparentButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/ic_baby_list"
+                android:drawablePadding="@dimen/button_drawable_margin"
+                android:gravity="left|center_vertical"
+                android:onClick="onListRecordsButtonClicked"
+                android:padding="@dimen/button_bar_padding"
+                android:text="@string/view_records"
+                android:textSize="@dimen/widget_title_text_size" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/imageButtonManageFormBooks"
+                    style="@style/TransparentButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@mipmap/ic_manage_forms"
+                    android:drawablePadding="@dimen/button_drawable_margin"
+                    android:gravity="left|center_vertical"
+                    android:onClick="onListRecordsButtonClicked"
+                    android:padding="@dimen/button_bar_padding"
+                    android:text="Manage Form Books"
+                    android:textSize="@dimen/widget_title_text_size" />
+                <LinearLayout
+                    android:id="@+id/linearLayoutManageFormBooksContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:visibility="gone">
+                    <Button
+                        android:id="@+id/imageButtonCreateFormBook"
+                        style="@style/TransparentButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@mipmap/ic_new_form_book"
+                        android:drawablePadding="@dimen/button_drawable_margin"
+                        android:gravity="left|center_vertical"
+                        android:onClick="onListRecordsButtonClicked"
+                        android:padding="@dimen/button_bar_padding"
+                        android:text="Create Form Book"
+                        android:textSize="@dimen/widget_title_medium_text_size" />
+                    <Button
+                        android:id="@+id/imageButtonListFormBooks"
+                        style="@style/TransparentButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@mipmap/ic_show_form_books"
+                        android:drawablePadding="@dimen/button_drawable_margin"
+                        android:gravity="left|center_vertical"
+                        android:onClick="onListRecordsButtonClicked"
+                        android:padding="@dimen/button_bar_padding"
+                        android:text="List Form Books"
+                        android:textSize="@dimen/widget_title_medium_text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            -->
+        <Button
+            android:id="@+id/imageButtonCharts"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_charts"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onChartsButtonClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/charts"
+            android:textSize="@dimen/widget_title_text_size" />
+
+        <Button
+            android:id="@+id/imageButtonSettings"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_settings"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onSettingsButtonClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/settings"
+            android:textSize="@dimen/widget_title_text_size" />
+
+
+        <Button
+            android:id="@+id/imageButtonChangePassword"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_change_password"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onChangePasswordButtonClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/change_password"
+            android:textSize="@dimen/widget_title_text_size" />
+
+
+        <Button
+            android:id="@+id/imageButtonLogout"
+            style="@style/TransparentButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_logout"
+            android:drawablePadding="@dimen/button_drawable_margin"
+            android:gravity="left|center_vertical"
+            android:onClick="onLogoutButtonClicked"
+            android:padding="@dimen/button_bar_padding"
+            android:text="@string/log_out"
+            android:textSize="@dimen/widget_title_text_size" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

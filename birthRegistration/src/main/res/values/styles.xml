@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light" >
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+    </style>
+    
+    <style name="AppThemeNoActionBar" parent="AppTheme">
+       
+    </style>
+    
+     <style name="TransparentTextFieldStyle" >
+        <item name="android:padding">@dimen/widget_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    
+     <style name="TransparentButtonStyle" >
+        <item name="android:padding">@dimen/widget_padding</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    
+    <style name="ErrorTextViewStyle">
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:background">@color/error_orange</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoAutoCompleteTextViewStyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

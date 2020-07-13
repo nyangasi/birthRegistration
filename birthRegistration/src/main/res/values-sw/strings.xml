@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">\u00A9 2015. UNICEF Tanzania Office</string>
+    <string name="app_name">Rejesta ya Kizazi</string>
+    <string name="welcome">Karibu</string>
+    <string name="login">Ingia</string>
+    <string name="username">Jina la Akaunti</string>
+    <string name="user_full_name">Jina Kamili</string>
+    <string name="password">Nywila</string>
+    <string name="forgot_password">Umesahau Nywila?</string>
+    <string name="log_out">Kutoka</string>
+    <string name="add_user">Tengeneza Mtumiaji</string>
+    <string name="change_password">Badilisha Nywila</string>
+    <string name="current_password">Nywila ya Zamani</string>
+    <string name="edit">Hariri</string>
+    <string name="delete">Kufuta</string>
+    <string name="upload">Tuma</string>
+    <string name="selection_message">Taarifa %1$d ya %2$d imechaguliwa."</string>
+    <string name="upload_message">Taarifa %1$d ya %2$d imetumwa kwa mafanikio."</string>
+    <string name="delete_message">Taarifa %1$d ya %2$d imefutwa kwa mafanikio."</string>
+    <string name="new_user_title">Akaunti mpya</string>
+    <string name="new_username">Jina la mwenye akaunti</string>
+    <string name="new_password">Nywila mpya</string>
+    <string name="confirm_password">Hakiki nywila</string>
+    <string name="create_new_user">Ingiza mtumiaji mpya</string>
+    <string name="error_user_exists">\nJina la mtumiaji unayejaribu kumwingiza limetumika.</string>
+    <string name="error_empty_username_or_password">\nJina la mtumiaji na nywila kuwa tupu.</string>
+    <string name="error_password_mismatch">\nNywila ulizoingiza hazifanani.</string>
+    <string name="success_create_user">Akaunti imefanikiwa kutengenezwa.</string>
+    <string name="error_title_login_failure">Huwezi kuingia</string>
+    <string name="account_created_message">Akaunti ya mtumiaji imeanzishwa. Hakini inahitaji uhakiki. Jaribu tena baadaye.</string>
+    <string name="account_created_message_title">Ingiza mtumiaji mpya.</string>
+    <string name="error_message_login_failure">Jina au nywila uliyoingiza sio sahihi. Tafadhali jaribu tena.  \nNote that both username and password are case sensitive.</string>
+    <string name="first_use_message">Karibu kutumia mfumo hii. Inakubidi kutengeneza akaunti ya mtumiaji.</string>
+    <string name="first_use_title">Karibu.</string>
+    <string name="error_title_account_create_failure">Utengenezaji wa akaunti haujafanikiwa</string>
+    <string name="birth_record_input_title">Ingiza taarifa ya kizazi</string>
+    <string name="new_record">Taarifa Mpya</string>
+    <string name="view_records">Hakiki Taarifa</string>
+    <string name="upload_records">Tuma Taarifa</string>
+    <string name="save">Hifadhi</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Nyuma</string>
+    <string name="input_error_message">Una mapungufu kwenye fomu.</string>
+    <string name="upload_selected">Kupakia Baadhi</string>
+    <string name="delete_selected">Futa Zilizochaguliwa</string>
+    <string name="select_all">Chagua Taarifa Zote</string>
+    <string name="baby_data">Taarifa za mtoto</string>
+    <string name="mother_data">Taarifa za mama</string>
+    <string name="father_data">Taarifa za baba</string>
+    <string name="solemn_disclosure">Tamko la mtoa taarifa</string>
+    <string name="notice_of_registrar">Taarifa za msajili</string>
+    <string name="form_number">Fomu Namba</string>
+    <string name="first_name">Jina la kwanza</string>
+    <string name="second_name">Jina la pili</string>
+    <string name="last_name">Jina la mwisho</string>
+    <string name="sex">Jinsi</string>
+    <string name="birth_date">Tarehe ya kuzaliwa</string>
+    <string name="pick_date">Chagua tarehe</string>
+    <string name="place_of_birth">Mahali alipozaliwa</string>
+    <string name="birth_place_district_code">Postikodi ya wilaya aliyozaliwa</string>
+    <string name="state_at_birth">Hali ya kizazi</string>
+    <string name="type_of_birth">Aina ya kizazi</string>
+    <string name="residence_post_code">Postikodi ya makazi ya kudumu</string>
+    <string name="residence_district_code">Postikodi ya wilaya anayoishi</string>
+    <string name="country_of_birth">Nchi aliyozaliwa</string>
+    <string name="number_of_children">Uzao wa Ngapi</string>
+    <string name="age">Umri</string>
+    <string name="filled_by">Cheo</string>
+    <string name="registration_center_code">Geresho la kituo cha usajili</string>
+    <string name="certificate_issued">Cheti kimetolewa</string>
+    <string name="date_of_registration">Tarehe ya usajili</string>
+    <string name="account_disabled_message">Akaunti yako imesitishwa. Wasiliana na RITA ili kuendelea kutumia mfumo.</string>
+    <string name="phone_number">Namba ya simu</string>
+    <string name="title_activity_reset_password">Badilisha Nywila</string>
+    <string name="title_activity_forgot_password">Umesahau Nywila?</string>
+    <string name="request_password_reset">Tuma maombi ya kubadilisha nywila</string>
+    <string name="reset_password">badilisha nywila</string>
+    <string name="request_password_reset_message">Bofya Kutuma taarifa zifuatazo. Punde RITA watawasiliana na wewe juu ya kuadilisha nywila.
+</string>
+    <string name="password_reset_message_sent_title">Maombi ya kubadilisha nywila</string>
+    <string name="password_reset_message_sent_message">Maombi yako ya kubadisha nywila yametumwa. RITA watawasiliana na wewe punde</string>
+    <string name="app_locked_message">Mfumo umezuiliwa. Tafadhali wasiliana na RITA ili kuweza kuendelea kutumia mfumo huu.
+</string>
+    <string name="app_invalid_message">Mfumo huu umesitishwa moja kwa moja. Tafadhali Ondoa mfumo huu kwenye simu.
+</string>
+
+</resources>

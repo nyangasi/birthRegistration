@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+    <dimen name="activity_horizontal_medium_margin">10dp</dimen>
+    <dimen name="activity_vertical_medium_margin">10dp</dimen>
+    <dimen name="activity_large_vertical_margin">40dp</dimen>
+    <dimen name="activity_large_horizontal_margin">20dp</dimen>
+    <dimen name="widget_header_margin_top">20dp</dimen>
+    <dimen name="widget_mini_header_margin_top">10dp</dimen>
+    <dimen name="widget_padding">10dp</dimen>
+    <dimen name="widget_margin_bottom">10dp</dimen>
+    <dimen name="widget_title_text_size">24sp</dimen>
+    <dimen name="widget_title_medium_text_size">20sp</dimen>
+    <dimen name="button_drawable_margin">10dp</dimen>
+    <dimen name="button_bar_padding">5dp</dimen>
+    <dimen name="title_font_size">16dp</dimen>
+    <dimen name="domain_label_font_size">12dp</dimen>
+    <dimen name="range_label_font_size">12dp</dimen>
+    <dimen name="range_tick_label_font_size">12dp</dimen>
+    <dimen name="domain_tick_label_font_size">12dp</dimen>
+    <dimen name="legend_text_font_size">12dp</dimen>
+</resources>

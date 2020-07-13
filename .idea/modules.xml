@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BirthRegistration.iml" filepath="$PROJECT_DIR$/BirthRegistration.iml" group="BirthRegistration" />
+      <module fileurl="file://$PROJECT_DIR$/birthRegistration/birthRegistration.iml" filepath="$PROJECT_DIR$/birthRegistration/birthRegistration.iml" group="BirthRegistration/birthRegistration" />
+      <module fileurl="file://$PROJECT_DIR$/sDMM_SDK/sDMM_SDK.iml" filepath="$PROJECT_DIR$/sDMM_SDK/sDMM_SDK.iml" group="BirthRegistration/sDMM_SDK" />
+    </modules>
+  </component>
+</project>

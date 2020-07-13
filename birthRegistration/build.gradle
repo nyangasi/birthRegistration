@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "tz.co.rita.birthregistration"
+        minSdkVersion 16
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+repositories {
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+    compile project(':sDMM_SDK')
+    //compile 'com.androidplot:androidplot-core:0.9.6'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.2.0'
+    compile 'com.android.support:support-v4:22.1.1'
+}

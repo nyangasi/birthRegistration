@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Set these to "false" after you have tested your integration -->
+	<bool name="sdmmLogs">true</bool>
+    <bool name="sdmmWarnings">true</bool>
+    
+    <!--  Set this to "true" if you implemented BETA features -->
+	<bool name="sdmmBeta">false</bool>
+    
+    <!-- 	WARNING: The values below are valid for testing only
+    	 	Your app will work but change them before deploying your app 
+    	 	-->
+    <string name="sdmm_app_version">7</string>
+    <string name="sdmm_app_name">Super Duper Messaging Manager SDK</string>
+    <string name="sdmm_app_id">sdmm_test_id</string>
+    <string name="sdmm_package_id">com.sdmmllc.superdupersmsmanager.sdk</string>
+    <string name="sdmm_access_type">10</string>
+    
+    <!--  	Change the class names below to match your manifest.
+    	
+    		For example, if in your manifest a class has the INTENT-FILTER: SMS_RECEIVED
+    		then change "sdmm_sms_received_class" value from "com.sdmmllc.superdupersmsmanager.sdk.SMS_RECEIVED_CLASS" 
+    		to match the name of your class
+    		 -->
+    <string name="sdmm_send_class"					>com.sdmmllc.superdupersmsmanager.sdk.SEND_CLASS</string>
+    <string name="sdmm_sendto_class"				>com.sdmmllc.superdupersmsmanager.sdk.SENDTO_CLASS</string>
+    <string name="sdmm_send_multiple_class"			>com.sdmmllc.superdupersmsmanager.sdk.SEND_MULTIPLE_CLASS</string>
+    <string name="sdmm_send_message_class"			>com.sdmmllc.superdupersmsmanager.sdk.SEND_MESSAGE_CLASS</string>
+    <string name="sdmm_sms_received_class"			>com.sdmmllc.superdupersmsmanager.sdk.SMS_RECEIVED_CLASS</string>
+    <string name="sdmm_sms_deliver_class"			>com.sdmmllc.superdupersmsmanager.sdk.SMS_DELIVER_CLASS</string>
+    <string name="sdmm_wap_push_received_class"		>com.sdmmllc.superdupersmsmanager.sdk.WAP_PUSH_RECEIVED_CLASS</string>
+    <string name="sdmm_wap_push_deliver_class"		>com.sdmmllc.superdupersmsmanager.sdk.WAP_PUSH_DELIVER_CLASS</string>
+    <string name="sdmm_mms_push_class"				>com.sdmmllc.superdupersmsmanager.sdk.MMS_PUSH_CLASS</string>
+    <string name="sdmm_message_sent_class"			>com.sdmmllc.superdupersmsmanager.sdk.MESSAGE_SENT_CLASS</string>
+    <string name="sdmm_respond_via_message_class"	>com.sdmmllc.superdupersmsmanager.sdk.RESPOND_VIA_MESSAGE_CLASS</string>
+    
+    <!--  	This is for your reference only 
+    		-->
+    <string name="sdmmVersion">0.94.1</string>
+    <string name="sdmm_package_name">com.sdmmllc.superdupermessagingmanager</string>
+</resources>

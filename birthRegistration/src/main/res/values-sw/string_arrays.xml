@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sex_array">
+        <item>Choose</item>
+        <item>Kiume</item>
+        <item>Kike</item>
+    </string-array>
+    <string-array name="place_of_birth_array">
+        <item>Hospitali</item>
+        <item>Nyumbani</item>
+        <item>Mahali Pengine</item>
+    </string-array>
+    <string-array name="state_at_birth_array">
+        <item>Hai</item>
+        <item>Mfu</item>
+    </string-array>
+    <string-array name="type_of_birth_array">
+        <item>Mmoja</item>
+        <item>Mapacha</item>
+        <item>Zaidi ya Wawili</item>
+    </string-array>
+    <string-array name="filled_by_array">
+        <item>Mama</item>
+        <item>Baba</item>
+        <item>Mtumishi wa tiba</item>
+        <item>Mwingine yeyote</item>
+    </string-array>
+    <string-array name="yes_no_array">
+        <item>Ndio</item>
+        <item>Hapana</item>
+    </string-array>
+    <string-array name="gender">
+        <item>1 - Kiume</item>
+        <item>2 - Kike</item>
+    </string-array>
+
+</resources>

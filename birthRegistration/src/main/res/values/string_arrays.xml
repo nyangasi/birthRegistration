@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sex_array">
+        <item>Choose</item>
+        <item>Kiume</item>
+        <item>Kike</item>
+    </string-array>
+    <string-array name="place_of_birth_array">
+        <item>Hospitali</item>
+        <item>Nyumbani</item>
+        <item>Mahali Pengine</item>
+    </string-array>
+    <string-array name="state_at_birth_array">
+        <item>Hai</item>
+        <item>Mfu</item>
+    </string-array>
+    <string-array name="type_of_birth_array">
+        <item>Mmoja</item>
+        <item>Mapacha</item>
+        <item>Zaidi ya Wawili</item>
+    </string-array>
+    <string-array name="filled_by_array">
+        <item>Mama</item>
+        <item>Baba</item>
+        <item>Mtumishi wa tiba</item>
+        <item>Mwingine yeyote</item>
+    </string-array>
+    <string-array name="yes_no_array">
+        <item>Ndio</item>
+        <item>Hapana</item>
+    </string-array>
+    <string-array name="death_location">
+        <item>Chagua</item>
+        <item>1 - Kituo cha Tiba</item>
+        <item>2 - Nyumbani</item>
+        <item>3 - Mahali Pengine</item>
+    </string-array>
+    <string-array name="type_hf">
+        <item>Chagua</item>
+        <item>1 - Hospitali</item>
+        <item>2 - Kituo cha Afya</item>
+        <item>3 - Zahanati</item>
+    </string-array>
+    <string-array name="marital_status">
+        <item>Chagua</item>
+        <item>1 - Hakuwahi kuoa/kuolewa</item>
+        <item>2 - Alioa/Aliolewa</item>
+        <item>3 - Waliishi pamoja</item>
+        <item>4 - Mtaliki/Mtalaka</item>
+        <item>5 - Walitengana</item>
+        <item>6 - Mjane</item>
+        <item>7 - Sijui/Haiuhusihani</item>
+    </string-array>
+    <string-array name="decease_occupation">
+        <item>Chagua</item>
+        <item>1 - Mkulima/Mfugaji/Mvuvi</item>
+        <item>2 - Kazi za Ndani</item>
+        <item>3 - Kazi zisizoza ujuzi</item>
+        <item>4 - Kazi za ujuzi</item>
+        <item>5 - Uuzaji na usambazaji</item>
+        <item>6 - Kazi za ukarani</item>
+        <item>7 - Ueledi/Ufundi/Uongozi</item>
+        <item>8 - Sijui/Haiuhusihani</item>
+    </string-array>
+    <string-array name="decease_education">
+        <item>Chagua</item>
+        <item>1 - Chekechea</item>
+        <item>2 - Shule ya Msingi</item>
+        <item>3 - Mafunzo baada ya elimu ya Msingi</item>
+        <item>4 - Shule ya Sekondari( O Level)</item>
+        <item>5 - Mafunzo baada ya elimu ya sekondari</item>
+        <item>6 - Shule ya Sekondari ya Juu(A Level)</item>
+        <item>7 - Mafunzo baada ya elimu ya sekondari ya juu</item>
+        <item>8 - Chuo Kikuu</item>
+        <item>9 - Hakuwahi Kusoma</item>
+    </string-array>
+    <string-array name="decease_birth_registration">
+        <item>Chagua</item>
+        <item>1 - Ndio</item>
+        <item>2 - Hapana</item>
+        <item>3 - Haijulikani</item>
+    </string-array>
+    <string-array name="boolean_eng">
+        <item>Chagua</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="boolean_ksw">
+        <item>Chagua</item>
+        <item>1 - Ndio</item>
+        <item>2 - Hapana</item>
+    </string-array>
+
+    <string-array name="boolean_ext_ksw">
+        <item>Chagua</item>
+        <item>1 - Ndio</item>
+        <item>2 - Hapana</item>
+        <item>3 - Sijui</item>
+    </string-array>
+    <string-array name="decease_death_manner">
+        <item>Chagua</item>
+        <item>1 - Ugonjwa</item>
+        <item>2 - Ajali</item>
+        <item>3 - Kujidhuru kwa makusudi</item>
+        <item>4 - Kushambuliwa</item>
+        <item>6 - Vita</item>
+        <item>7 - Inasubiri uchunguzi</item>
+        <item>8 - Haijulikani</item>
+    </string-array>
+
+
+    <string-array name="pregnancy_age">
+        <item>Chagua</item>
+        <item>1 - Wakati wa kifo</item>
+        <item>2 - Ndani ya siku 42 kabla ya kifo</item>
+        <item>3 - Kati ya siku 43 mpaka mwaka 1 kabla ya kifo</item>
+        <item>4 - Haijulikani</item>
+    </string-array>
+
+    <string-array name="decease_relationship">
+        <item>Chagua</item>
+        <item>1 - Mke/Mume</item>
+        <item>2 - Mama</item>
+        <item>3 - Baba</item>
+        <item>4 - Mtoto wa Marehemu</item>
+        <item>5 - Mtu mwingine</item>
+    </string-array>
+    <string-array name="facility_type">
+        <item>Chagua</item>
+        <item>Kituo cha Tiba</item>
+        <item>Mtendaji wa Kata</item>
+        <item>Mkurugenzi wa halmashaur</item>
+        <item>RITA</item>
+    </string-array>
+    <string-array name="natID">
+        <item>Chagua</item>
+        <item>1 - Kitambulisho cha Taifa</item>
+        <item>2 - Kadi ya Mpiga Kura</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Chagua</item>
+        <item>1 - Kiume</item>
+        <item>2 - Kike</item>
+    </string-array>
+</resources>

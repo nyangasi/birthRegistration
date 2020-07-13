@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_key_show_notifications"
+        android:summary="@string/pref_show_notifications"
+        android:title="@string/pref_title_show_notifications" />
+    <PreferenceCategory
+        android:title="MPANGILIO WA NAMBA ZA FOMU VIZAZI"
+        android:key="pref_key_form_number_settings">
+
+        <EditTextPreference
+            android:key="pref_key_starting_form_number"
+            android:summary="@string/pref_summary_starting_form_number"
+            android:title="@string/pref_title_starting_form_number"
+            android:maxLength="10"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="pref_key_ending_form_number"
+            android:summary="@string/pref_summary_ending_form_number"
+            android:title="@string/pref_title_ending_form_number"
+            android:maxLength="10"
+            android:inputType="number"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="MPANGILIO WA NAMBA ZA FOMU VIFO"
+        android:key="pref_key_death_form_number_settings">
+
+        <EditTextPreference
+            android:key="pref_key_death_starting_form_number"
+            android:summary="@string/pref_summary_starting_form_number"
+            android:title="Namba ya Kwanza"
+            android:maxLength="10"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="pref_key_death_ending_form_number"
+            android:summary="@string/pref_summary_ending_form_number"
+            android:title="Namba ya Mwisho"
+            android:maxLength="10"
+            android:inputType="number"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_registration_center_settings_title"
+        android:key="pref_registration_center_number_settings">
+
+        <EditTextPreference
+            android:key="pref_key_registration_center_number"
+            android:summary="@string/pref_summary_registration_center_number"
+            android:title="@string/pref_title_registration_center_number"
+            android:inputType="text"/>
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_data_upload_settings_title"
+        android:key="pref_key_data_upload_settings">
+
+        <!--
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_sms_upload"
+            android:summary="@string/pref_enable_sms_upload"
+            android:title="@string/pref_title_enable_sms_upload" />
+        <EditTextPreference
+            android:dependency="pref_key_enable_sms_upload"
+            android:key="pref_key_sms_upload_number"
+            android:summary="@string/pref_summary_sms_upload_number"
+            android:title="@string/pref_title_sms_upload_number"
+            android:inputType="phone"/>
+        -->
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_internet_upload"
+            android:summary="@string/pref_enable_internet_upload"
+            android:title="@string/pref_title_enable_internet_upload" />
+        <!--
+        <EditTextPreference
+            android:defaultValue="http://41.188.155.189:8080/sys/apps/regsys/url_receive.php"
+            android:dependency="pref_key_enable_internet_upload"
+            android:key="pref_key_upload_url"
+            android:summary="@string/pref_summary_upload_url"
+            android:title="@string/pref_title_upload_url"
+            />
+            -->
+        </PreferenceCategory>
+
+</PreferenceScreen>

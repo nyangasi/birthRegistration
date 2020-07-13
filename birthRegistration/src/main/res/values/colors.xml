@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="error_red">#F00</color>
+    <color name="error_orange">#00F</color>
+    <color name="transparent">#0FFF</color>
+    <color name="semi_white">#DFFF</color>
+    <color name="app_background_color">#EDEDED</color>
+    <color name="app_background_color_pink">#FDDDFD</color>
+    <color name="blue">#33F</color>
+    
+</resources>
